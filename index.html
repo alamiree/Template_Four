@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;800&family=Dongle:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aa8cf0296c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="home">
+
+        <!-- Start of sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar_heading">
+                <h2>Elzero</h2>
+                <span class="sidebar_heading_shape"></span>
+            </div>
+            <ul class="sidebar-pages">
+                <li class="active"><i class="fa fa-chart-line"></i><a href="#">Dashboard</a></li>
+                <li><i class="fa fa-gear"></i><a href="#">Settings</a></li>
+                <li><i class="fa fa-user"></i><a href="#">Profile</a></li>
+                <li><i class="fa fa-user"></i><a href="#">Projects</a></li>
+                <li><i class="fa fa-user"></i><a href="#">Courses</a></li>
+                <li><i class="fa fa-user"></i><a href="#">Friends</a></li>
+                <li><i class="fa fa-file"></i><a href="#">Files</a></li>
+                <li><i class="fa fa-calendar"></i><a href="#">Plans</a></li>
+            </ul>
+        </aside>
+        <!-- End of sidebar -->
+
+        <div class="dashboard-page">
+
+            <!-- Start of navbar -->
+            <div class="navbar">
+                <div class="seach_content">
+                    <input type="search" name="seach" class="search" id="search" placeholder="Search keyword" />
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="profile_info">
+                    <i class="fa fa-bell"></i>
+                    <img src="images/Profile4.webp" class="profile_img" alt="profile" />
+                </div>
+            </div>
+            <!-- End of navbar -->
+
+            <div class="dashboard">
+                <div class="dashboard-heading">
+                    <h2>Dashboard</h2>
+                    <span></span>
+                </div>
+
+                <div class="dashboard-content">
+                    <div class="row">
+                        <div class="welcome">
+                            <div class="welcome-text">
+                                <div class="welcome-text-info">
+                                    <h3>Welcome</h3>
+                                    <span>Elzero</span>
+                                </div>
+                                <div class="welcome-img">
+                                    <img src="images/welcome3.png" alt="welcome" />
+                                </div>
+                            </div>
+                            <div class="welcome-profile-img">
+                                <img src="images/Profile4.webp" alt="" srcset="">
+                            </div>
+                            <div class="welcome-elzero-info">
+                                <div class="title">
+                                    <h3>Osama Elzero</h3>
+                                    <span>Developer</span>
+                                </div>
+                                <div class="projects">
+                                    <h3>80</h3>
+                                    <span>projects</span>
+                                </div>
+                                <div class="earning">
+                                    <h3>$5800</h3>
+                                    <span>Earned</span>
+                                </div>
+                            </div>
+                            <div class="profile-btn">
+                                <a href="profile.html">Profile</a>
+                            </div>
+                        </div>
+                        <div class="draft">
+                            <div class="draft-text-info">
+                                <h3>Quick Draft</h3>
+                                <span>Write A Draft for your idea</span>
+                            </div>
+                            <div class="draft-form">
+                                <input type="text" placeholder="Title" class="title" name="title" id="title">
+                                <textarea name="thought" id="thought" class="thought" cols="30" rows="8"
+                                    placeholder="Your thought"></textarea>
+                            </div>
+                            <div class="draft-btn">
+                                <a href="#">Save</a>
+                            </div>
+                        </div>
+
+                        <!-- Start of target section -->
+                        <div class="target">
+                            <div class="target-text-info">
+                                <h3>Yearly Target</h3>
+                                <span>Target of the year with progress</span>
+                            </div>
+                            <div class="money-progress target-progress">
+                                <i class="fa fa-dollar-sign dollar"></i>
+                                <div class="money-progress-info progress-info">
+                                    <span class="first-span">Money</span>
+                                    <h4>$20.000</h4>
+                                    <span class="money-progress-bar progress-bar">
+                                        <span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="projects-progress target-progress">
+                                <i class="fa fa-code code"></i>
+                                <div class="projects-progress-info progress-info">
+                                    <span class="first-span">Projects</span>
+                                    <h4>24</h4>
+                                    <span class="projects-progress-bar progress-bar">
+                                        <span></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="team-progress target-progress">
+                                <i class="fa fa-user user"></i>
+                                <div class="team-progress-info progress-info">
+                                    <span class="first-span">Team</span>
+                                    <h4>12</h4>
+                                    <span class="team-progress-bar progress-bar">
+                                        <span></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of target section -->
+
+                        <!-- Start of stat section -->
+                        <div class="stats section-padding">
+                            <div class="text-info">
+                                <h3>Tickets Statistics</h3>
+                                <span class="span-in-boxes">Everything about support Tickets</span>
+                            </div>
+                            <div class="stat-boxes">
+                                <div class="box box1">
+                                    <i class="fa fa-book"></i>
+                                    <h2 class="stat-box-number">2500</h2>
+                                    <span>Total</span>
+                                </div>
+                                <div class="box box2">
+                                    <i class="fa fa-spinner"></i>
+                                    <h2 class="stat-box-number">500</h2>
+                                    <span>Pending</span>
+                                </div>
+                                <div class="box box3">
+                                    <i class="fa fa-check"></i>
+                                    <h2 class="stat-box-number">1900</h2>
+                                    <span>Closed</span>
+                                </div>
+                                <div class="box box4">
+                                    <i class="fa fa-book"></i>
+                                    <h2 class="stat-box-number">100</h2>
+                                    <span>Deleted</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of stat section -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
